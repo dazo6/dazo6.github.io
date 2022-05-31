@@ -64,6 +64,7 @@ jobs:
 
       - name: Gen CNAME File
         run: |
+          mkdir public
           echo "blog.dazo66.com" > public/CNAME
 
       - name: Deploy hexo
