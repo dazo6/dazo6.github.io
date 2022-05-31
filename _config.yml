@@ -108,4 +108,10 @@ baidutongji: # baidutongji tracking code
 duoshuo: # duoshuo username
 gsc: # google custom search code
 
+deploy:
+  type: git
+  repo: https://github.com/dazo6/dazo6.github.io
+  # example, https://github.com/hexojs/hexojs.github.io
+  branch: master
+
 
