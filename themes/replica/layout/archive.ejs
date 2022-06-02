@@ -30,7 +30,7 @@ var nav_selected = page.path.split('/')[0];
               <% } else { %>
                 <%= post.content
                     .replace(/<[^>]*>/ig, ' ')
-                    .substr(0, 50) %>
+                    .substr(0, 150) %>
               <% } %>...
           </p>
           <ul class="tag-list clearfix">
