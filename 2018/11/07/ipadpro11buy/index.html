@@ -44,6 +44,15 @@
     <div class="container clearfix">
       <a href="/" class="navbar-logo"><i class="fa fa-github"></i></a>
 
+      <div class="navbar-search float-left desktop-only">
+        <div class="navbar-search-form">
+          <label for="gsc-i-id1">This website</label>
+          <div id="google-search">
+            <gcse:search></gcse:search>
+          </div>
+        </div>
+      </div>
+
       <ul class="navbar-nav float-left">
         
         <li><a href="/archives">Archives</a></li>
@@ -60,6 +69,12 @@
       </ul>
 
       <ul class="navbar-nav user-nav float-right desktop-only">
+        <li class="user-nav-notification">
+          <a><span class="user-nav-unread"></span><i class="fa fa-bell"></i></a>
+        </li>
+        <li>
+          <a><i class="fa fa-plus"></i> <i class="fa fa-caret-down"></i></a>
+        </li>
         <li class="user-nav-logo">
           <a herf="/"><img src="https://avatars.githubusercontent.com/u/30711471"> <i class="fa fa-caret-down"></i></i></a>
         </li>
@@ -299,10 +314,10 @@
                     console.log("Error: " + error.code + " " + error.message);
                 }
             });
-    
+
         });
     }
-    
+
     function addCount(Counter) {
         var Counter = AV.Object.extend("Counter");
         url = $(".leancloud_visitors").attr('id').trim();
@@ -353,7 +368,7 @@
         } else if ($('.post-title-link').length > 1) {
             showTime(Counter);
         }
-    }); 
+    });
     </script>
 
 </div>

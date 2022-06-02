@@ -225,7 +225,7 @@ a:hover {
   height: 14px;
   color: #fff;
   text-align: center;
-  background-image: linear-gradient(#54a3ff, #006eec);
+  background-image: linear-gradient(#54a3ff, #006eed);
   background-clip: padding-box;
   border-width: 2px;
   border-style: solid;
@@ -654,6 +654,7 @@ pre {
 }
 .footer-pageview img {
   display: inline-block;
+/* crop img to hide flag counter logo */
   margin-bottom: -25px;
 }
 @media (max-width: 414px) {
