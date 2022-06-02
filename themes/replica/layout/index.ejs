@@ -17,7 +17,7 @@ var recentPosts = page.posts.data.slice(0, 6);
           <div class="clearfix">
             <h5 class="post-title text-ellipsis">
               <i class="fa fa-bars"></i>
-              <a href="<%= url_for(post.path) %>"><%= post.title || 'Untitled' %></a>
+              <a target="_blank" href="<%= url_for(post.path) %>"><%= post.title || 'Untitled' %></a>
             </h5>
             <p class="post-description text-ellipsis desktop-only">
               <% if(post.content.indexOf('markdown使用提示结束') > -1) {%>
