@@ -47,7 +47,7 @@ npm install viewerjs
 
 通过阅读官方的readme可以知道我们需要导入的分别是：
 
-​```html
+​```
 <link  href="/path/to/viewer.min.css" rel="stylesheet">
 <script src="/path/to/viewer.min.js"></script>
 ```
@@ -70,7 +70,7 @@ npm install viewerjs
 
 的最后添加以下代码 ：
 
-```html
+```
 <!-- 图片查看器库类 -->
 <link  href="<%= config.root %>css/viewer.min.css" rel="stylesheet">
 <script src="<%= config.root %>js/viewer.min.js" type="text/javascript" charset="utf-8"></script>
@@ -92,7 +92,7 @@ npm install viewerjs
 
 所以我们需要进行如下配置， 以下代码放在上面库类导入的代码后面：
 
-```javascript
+```
 <!-- 图片查看器实例配置 -->
 <script type="text/javascript">
   //默认设置
